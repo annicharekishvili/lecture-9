@@ -1,0 +1,56 @@
+.flex-container {
+  width: 500px;
+  height: 250px;
+  background-color: lightpink;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  border-radius: 10px;
+
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-phone {
+  color: red;
+  font-size: 40px;
+}
+
+header {
+  padding: 24px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 52px;
+}
+
+a {
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+}
